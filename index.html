@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DnD Triangles | Canvas</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="btn-cont">
+      <button id="clear">Clear</button>
+      <div>
+        <label for="colour">Colour <strong>=> </strong></label>
+        <input type="color" name="colour" id="colour" value="#ab0000" />
+        <input type="checkbox" name="gradient" id="gradient" />
+        <label for="gradient">Linear Gradient</label>
+        <input
+          type="color"
+          name="colourStop1"
+          id="colourStop1"
+          value="#ff0000"
+          class="gradient"
+        />
+        <input
+          type="color"
+          name="colourStop2"
+          id="colourStop2"
+          value="#000000"
+          class="gradient"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
